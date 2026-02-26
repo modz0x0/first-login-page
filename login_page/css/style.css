@@ -1,0 +1,65 @@
+
+body {
+    background-color: #121212; /* لون أسود هادي مريح للعين */
+    color: #ffffff;           /* لون النص أبيض */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;  /* توسيط الفورم بالعرض */
+    align-items: center;      /* توسيط الفورم بالطول */
+    height: 100vh;            /* ياخد طول الشاشة بالكامل */
+    margin: 0;
+}
+.signup-container {
+    background-color: #1e1e1e; /* لون رمادي غامق للصندوق */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5); /* ظل عشان يدي عمق */
+    width: 350px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: white;
+    box-sizing: border-box; /* عشان الـ padding ميزودش عرض الخانة */
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* لون أزرق */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: #0056b3; /* يغمق شوية لما تقف عليه */
+}
+
+/* تنسيق خاص للخانة لما يكون فيها خطأ */
+.input-error::placeholder {
+    color: #ff4b4b !important;
+    font-size: 13px;
+    opacity: 1; /* عشان اللون يبان قوي في كل المتصفحات */
+}
+
+
+
+
+
+
+
+
+
+
+
+
